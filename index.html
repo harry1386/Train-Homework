@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+
+  <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.js"></script>  
+  <!-- moment.js cdn attempt -->
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+ </head>
+
+<div class="container">
+       <div class="jumbotron" id="headpanel">
+             <h1 class="text-center">
+                    Super Train Schedual
+             </h1>
+
+             <h3 class="text-center"> A Schedual of Real Trains and those of your Dreams</h3>
+
+       </div>
+
+       <div id="search">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"  style="background-color: #FF00FF ; color: #00FFFF; font-weight: bold;">
+                        <h2 class="panel-title">
+                           Magical Train Schedual
+                        </h2>
+                    </div>
+
+        <table class=" table table-hover" id="traintable">
+          <thead>
+            <tr>
+               <th>Train Name</th>
+                  <th>Destination</th>
+                  <th>Frequency (min)</th>
+                  <th>Next Arrival</th>
+                  <th>Minutes Away</th>
+            </tr>
+         </thead>
+        <tbody id="tablebody">
+           <tr>
+          </tr>
+       </tbody>
+      </table>
+    </div>
+       <div class="row" >
+            <div class="col-sm-12">
+                <div class="panel panel-primary" id="addtable">
+                    <div class="panel-heading"  style="background-color: #FF00FF ; color: #00FFFF; font-weight: 900;">
+                        <h2 class="panel-title">
+                           Add Whatever Train Your Heart Desires!
+                        </h2>
+                    </div>
+    <div class="input-group">
+        Train Name: 
+        <br>
+        <input class="form-control" id="train-name" type="text">
+        Destination: 
+        <br>
+        <input class="form-control" id="train-destination" type="text">
+        First Train Time (Military time you doofus):
+        <br>
+        <input class="form-control" id="train-start" type="text">
+        Frequency (min):
+        <br>
+        <input class="form-control" id="train-frequency" type="text">
+        <button type="submit" id="train-submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
