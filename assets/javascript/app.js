@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 var name;
 var destination;
 var start;
@@ -5,13 +7,7 @@ var frequency;
 var min;
 var appart;
 var difference;
-var nextArr
-
-
-
-$(document).ready(function() {
-
-
+var nextArr;
 
 	  // Initialize Firebase
   var config = {
