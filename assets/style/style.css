@@ -13,6 +13,7 @@ body {
 
 #traintable {
 	background-color: #00FF00;
+		color: #800080;
 
 }
 
@@ -29,6 +30,7 @@ body {
 .input-group {
 	width: 95%;
 	margin-left: 28px;
+	color: #800080;
 
 }
 
