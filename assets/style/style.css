@@ -7,6 +7,7 @@ body {
 	color: #FF00FF; 
 	border: 3px solid #00FF00;
 	margin-top: 15px;
+	position: relative;
 }
 
 
@@ -17,6 +18,7 @@ body {
 
 #addtable {
 	background-color: #00FF00;
+
 }
 
 .input-group {
@@ -34,4 +36,39 @@ body {
 	color: #FF00FF;
 	font-size: 21px;
 	font-weight: bold;
+}
+
+#cat1 {
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	left: 47px;
+	border: 4px outset #FF00FF;
+}
+
+#cat2 {
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	right: 47px;
+	top: 51px;
+	border: 4px outset #FF00FF;
+}
+
+#parrot1 {
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	left: 410px;
+	bottom: 19px;
+	border: 2px outset #FF00FF;
+}
+
+#parrot2 {
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	bottom: 19px;
+	right: 441px;
+	border: 2px outset #FF00FF;
 }
