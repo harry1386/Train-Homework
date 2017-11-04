@@ -5,7 +5,7 @@ body {
 #headpanel {
 	background-color: #00FFFF; 
 	color: #FF00FF; 
-	border: 3px solid #00FF00;
+	border: 5px outset #00FF00;
 	margin-top: 15px;
 	position: relative;
 }
@@ -16,14 +16,20 @@ body {
 
 }
 
+#pan2 {
+	border: 5px outset #32CD32;
+}
+
 #addtable {
 	background-color: #00FF00;
+	border: 5px outset #32CD32;
 
 }
 
 .input-group {
 	width: 95%;
 	margin-left: 28px;
+
 }
 
 #train-submit {
@@ -36,6 +42,7 @@ body {
 	color: #FF00FF;
 	font-size: 21px;
 	font-weight: bold;
+	border: 2px outset #32CD32;
 }
 
 #cat1 {
